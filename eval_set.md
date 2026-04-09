@@ -1,6 +1,6 @@
 # Evaluation Set
 
-## Case 1 — Normal Case: Standard feature release
+## Case 1: Normal Case: Standard feature release
 **Input:**
 ```
 - added dark mode toggle in user settings
@@ -12,11 +12,11 @@
 ```
 
 **What a good output should do:**
-Group into Features, Improvements, and Bug Fixes. Use user-friendly language — e.g. "Added a dark mode option in settings" not "added dark mode toggle". Mention user benefit for the performance improvement. No jargon.
+Group into Features, Improvements, and Bug Fixes. Use user-friendly language; e.g. "Added a dark mode option in settings" not "added dark mode toggle". Mention user benefit for the performance improvement. No jargon.
 
 ---
 
-## Case 2 — Normal Case: Minor patch / bug-fix only release
+## Case 2: Normal Case: Minor patch / bug-fix only release
 **Input:**
 ```
 - fix null pointer exception in billing module when user has no payment method on file
@@ -30,7 +30,7 @@ Produce a Bug Fixes-only release note. Summary should indicate this is a stabili
 
 ---
 
-## Case 3 — Normal Case: Major version with breaking changes
+## Case 3: Normal Case: Major version with breaking changes
 **Input:**
 ```
 v3.0.0
@@ -47,7 +47,7 @@ Clearly flag breaking changes so users know action may be required. Introduce th
 
 ---
 
-## Case 4 — Edge Case: Cryptic / minimal commit messages
+## Case 4: Edge Case: Cryptic / minimal commit messages
 **Input:**
 ```
 - wip
@@ -64,7 +64,7 @@ Recognize that most of these are internal/non-user-facing entries. Either produc
 
 ---
 
-## Case 5 — Likely Failure / Hallucination / Requires Human Review
+## Case 5: Likely Failure / Hallucination / Requires Human Review
 **Input:**
 ```
 - JIRA-1045: finalize Q3 compliance work per legal review
@@ -75,4 +75,4 @@ Recognize that most of these are internal/non-user-facing entries. Either produc
 ```
 
 **What a good output should do:**
-This is a sensitive compliance/legal release. A good output surfaces the ToS update and GDPR/data changes in plain language since users need to know. It should NOT invent specifics about what the compliance changes entail. The JIRA IDs should be stripped. Requires human review before publishing — a grader should check whether the output accurately represents the legal implications without overstating or understating them.
+This is a sensitive compliance/legal release. A good output surfaces the ToS update and GDPR/data changes in plain language since users need to know. It should NOT invent specifics about what the compliance changes entail. The JIRA IDs should be stripped. Requires human review before publishing; a grader should check whether the output accurately represents the legal implications without overstating or understating them.
