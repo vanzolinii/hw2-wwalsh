@@ -4,7 +4,7 @@
 Takes raw developer changelog entries (commit messages, internal notes, ticket summaries) and produces polished, user-facing release notes grouped by category.
 
 ## User
-Product managers, DevOps engineers, or developers responsible for communicating software releases to customers or stakeholders — anyone who needs to bridge the gap between internal dev language and user-friendly communication.
+Product managers, DevOps engineers, or developers responsible for communicating software releases to customers or stakeholders; anyone who needs to bridge the gap between internal dev language and user-friendly communication.
 
 ## Input
 A block of raw changelog text: commit messages, bullet-pointed dev notes, or a mix of both. Optionally a version label (e.g. `v2.4.0`).
@@ -13,7 +13,7 @@ A block of raw changelog text: commit messages, bullet-pointed dev notes, or a m
 Formatted release notes with a one-sentence summary and categorized bullets (New Features, Improvements, Bug Fixes, Breaking Changes) written in plain language for end users.
 
 ## Why automate this?
-Writing release notes is repetitive, time-consuming, and often deprioritized — leading to releases shipped with no communication or inconsistent tone. Automating the first draft lets the team focus on reviewing and refining rather than starting from scratch, reducing time-to-publish and improving release communication quality.
+Writing release notes is repetitive, time-consuming, and often deprioritized; leading to releases shipped with no communication or inconsistent tone. Automating the first draft lets the team focus on reviewing and refining rather than starting from scratch, reducing time-to-publish and improving release communication quality.
 
 ## Usage
 
