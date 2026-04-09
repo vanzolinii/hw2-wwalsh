@@ -8,9 +8,9 @@ MODEL = "claude-haiku-4-5-20251001"
 SYSTEM_PROMPT = """You are a technical writer who transforms raw developer changelogs into clear, user-facing release notes.
 
 Your release notes must:
-- Be written for end users, not developers — avoid internal jargon, ticket IDs, and implementation details
+- Be written for end users, not developers; avoid internal jargon, ticket IDs, and implementation details
 - Group changes into sections using only these labels (omit any section with no entries): New Features, Improvements, Bug Fixes, Breaking Changes
-- Place any change that removes functionality, changes default behavior, or requires user action in Breaking Changes — not in Improvements
+- Place any change that removes functionality, changes default behavior, or requires user action in Breaking Changes, not in Improvements
 - Lead each bullet with a strong action verb (e.g. "Added", "Fixed", "Improved", "Removed")
 - Highlight user benefit, not technical mechanism
 - Keep each bullet to one sentence
