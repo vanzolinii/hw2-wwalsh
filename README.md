@@ -10,7 +10,7 @@ Product managers, DevOps engineers, or developers responsible for communicating 
 A block of raw changelog text: commit messages, bullet-pointed dev notes, or a mix of both. Optionally a version label (e.g. `v2.4.0`).
 
 ## Output
-Formatted release notes with a one-sentence summary and categorized bullets (New Features, Improvements, Bug Fixes) written in plain language for end users.
+Formatted release notes with a one-sentence summary and categorized bullets (New Features, Improvements, Bug Fixes, Breaking Changes) written in plain language for end users.
 
 ## Why automate this?
 Writing release notes is repetitive, time-consuming, and often deprioritized — leading to releases shipped with no communication or inconsistent tone. Automating the first draft lets the team focus on reviewing and refining rather than starting from scratch, reducing time-to-publish and improving release communication quality.
