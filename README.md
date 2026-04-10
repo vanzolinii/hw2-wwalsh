@@ -34,4 +34,4 @@ export ANTHROPIC_API_KEY=your_key_here
 ```
 
 ## Video Walkthrough
-<!-- TODO: Add unlisted YouTube link here -->
+https://youtu.be/9gcXNCzlYBM
